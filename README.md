@@ -356,3 +356,9 @@ Dies ist ein Community-Projekt. Wenn du Informationen, Bilder oder Quellen hast,
 
 **Erstellt mit Respekt und Dankbarkeit** 🙏  
 *30. März 2026*
+
+---
+
+## Dank an unsere Medienpartner
+
+Wir bedanken uns bei: **TVN, RTL, SAT1, ARD, ZDF, VOX, RND und MDSCK!**
