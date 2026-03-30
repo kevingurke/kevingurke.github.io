@@ -315,14 +315,26 @@ Lehmann arbeitet mit folgenden Organisationen zusammen:
 2. **Offizielle Website**: `https://www.robertmarclehmann.com/de/` - Offizielle Informationen
 3. **YouTube Kanal**: `https://www.youtube.com/channel/UCPzVjl-zc4pQlkqoVKLa-Tw` - Primärkanal
 
-### Nachrichten & Artikel
-4. **BILD**: `https://www.bild.de/unterhaltung/bildgg/robert-marc-lehmann-verkuendet-seinen-abschied-aus-tierschutz-689b3824f3b330071983f5c5`
-5. **Stuttgarter Zeitung**: `https://www.stuttgarter-zeitung.de/inhalt.zurueck-zu-den-wurzeln-robert-marc-lehmann-zieht-sich-aus-dem-tierschutz-zurueck.98c791ee-a25d-4054-a222-6b21e8e72d5a.html`
-6. **Pirsch.de**: `https://www.pirsch.de/news/nach-hass-von-veganern-beruehmter-tierschuetzer-lehmann-hoert-auf-41727`
-7. **Agrarheute**: `https://www.agrarheute.com/land-leben/hass-eigenen-reihen-beruehmter-tierschuetzer-zieht-reissleine-636246`
-8. **Land und Forst**: `https://www.landundforst.de/tier/hass-veganern-beruehmter-tierschuetzer-hoert-573998`
-9. **FAZ**: `https://www.faz.net/agenturmeldungen/dpa/streit-um-einsatz-des-biologen-robert-marc-lehmann-200683052.html`
-10. **Handelsblatt**: `https://www.handelsblatt.com/technik/forschung-innovation/wal-an-der-ostseekueste-streit-um-einsatz-des-biologen-robert-marc-lehmann/100212879.html`
+### Nachrichten & Artikel (Erweitert)
+4. **BILD**: `https://www.bild.de/unterhaltung/bildgg/robert-marc-lehmann-verkuendet-seinen-abschied-aus-tierschutz-689b3824f3b330071983f5c5` - "Verkündet seinen Abschied aus Tierschutz" (August 2025)
+5. **BILD**: `https://www.bild.de/unterhaltung/bildgg/youtube-quarkbaellchen-beichte-von-robert-marc-lehmann-spaltet-fans-68247ab418316409a647ef4b` - "Quarkbällchen-Beichte spaltet Fans"
+6. **BILD**: `https://www.bild.de/unterhaltung/bildgg/montanablack-verzichtet-auf-meerwasser-aquarium-nach-kritik-von-tierschuetzer-684ad9cac500125714a3a10a` - "MontanaBlack verzichtet auf Aquarium nach Kritik"
+7. **BILD**: `https://www.bild.de/regional/schleswig-holstein/meeresbiologe-ueberlebenschance-des-wals-liegt-bei-0-1-prozent-69c501b2dcad4ca5d4759462` - "Überlebenschance des Wals bei 0,1 Prozent"
+8. **Stuttgarter Zeitung**: `https://www.stuttgarter-zeitung.de/inhalt.zurueck-zu-den-wurzeln-robert-marc-lehmann-zieht-sich-aus-dem-tierschutz-zurueck.98c791ee-a25d-4054-a222-6b21e8e72d5a.html` - "Zurück zu den Wurzeln"
+9. **Pirsch.de**: `https://www.pirsch.de/news/nach-hass-von-veganern-beruehmter-tierschuetzer-lehmann-hoert-auf-41727` - "Nach Hass von Veganern - Lehmann hört auf"
+10. **Agrarheute**: `https://www.agrarheute.com/land-leben/hass-eigenen-reihen-beruehmter-tierschuetzer-zieht-reissleine-636246` - "Hass aus eigenen Reihen"
+11. **Land und Forst**: `https://www.landundforst.de/tier/hass-veganern-beruehmter-tierschuetzer-hoert-573998` - "Berühmter Tierschützer hört auf"
+12. **FAZ**: `https://www.faz.net/agenturmeldungen/dpa/streit-um-einsatz-des-biologen-robert-marc-lehmann-200683052.html` - "Streit um Einsatz des Biologen"
+13. **FAZ**: `https://www.faz.net/agenturmeldungen/dpa/der-wal-fluesterer-vom-ostseestrand-200675642.html` - "Der Wal-Flüsterer vom Ostseestrand"
+14. **Handelsblatt**: `https://www.handelsblatt.com/technik/forschung-innovation/wal-an-der-ostseekueste-streit-um-einsatz-des-biologen-robert-marc-lehmann/100212879.html` - "Wal an der Ostseeküste"
+15. **ZEIT ONLINE**: `https://www.zeit.de/news/2026-03/29/streit-um-einsatz-des-biologen-robert-marc-lehmann` - "Streit um Einsatz des Biologen"
+16. **ZEIT ONLINE**: `https://www.zeit.de/news/2026-03/26/der-wal-fluesterer-vom-ostseestrand` - "Der Wal-Flüsterer vom Ostseestrand"
+17. **DER SPIEGEL**: `https://www.spiegel.de/netzwelt/apps/umweltaktivist-robert-marc-lehmann-ich-habe-diese-wut-auch-in-mir-a-75eb0a0d-f89b-4913-87a3-e45f118417ad` - "Ich habe diese Wut auch in mir"
+18. **Süddeutsche Zeitung**: `https://www.sueddeutsche.de/bayern/paviane-nuernberg-robert-marc-lehmann-li.3306035` - "Die empörten Tierschützer"
+19. **T-Online**: `https://www.t-online.de/nachrichten/panorama/tiere/id_101189140/robert-marc-lehmann-der-wal-fluesterer-der-frueher-haie-fing.html` - "Der Wal-Flüsterer, der früher Haie fing"
+20. **T-Online**: `https://www.t-online.de/nachrichten/panorama/id_101190938/wal-drama-biologe-lehmann-macht-institut-vorwuerfe.html` - "Biologe macht Institut Vorwürfe"
+21. **T-Online**: `https://www.t-online.de/nachrichten/panorama/tiere/id_101191288/wal-in-ostsee-robert-marc-lehmann-ueberwirft-sich-mit-experten.html` - "Lehmann überwirft sich mit Experten"
+22. **T-Online**: `https://www.t-online.de/nachrichten/panorama/tiere/id_101188280/wal-rettung-er-will-starten-biologe-robert-marc-lehmann-mit-hoffnung.html` - "Er will starten - Lehmann mit Hoffnung"
 
 ### Literatur & Biografie
 11. **Lovelybooks**: `https://www.lovelybooks.de/autor/Robert-Marc-Lehmann/`
