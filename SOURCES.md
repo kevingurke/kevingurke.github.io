@@ -507,7 +507,164 @@ Lehmann arbeitet mit folgenden Organisationen zusammen:
 
 ---
 
-## VOLLSTÄNDIGE CHRONOLOGIE MIT VERÖFFENTLICHUNGSDATEN
+# BEWEISE FÜR EXISTENZ VOR 2021
+
+> Umfassende Dokumentation aller nachweisbaren Aktivitäten, Auszeichnungen und Medienauftritte vor dem YouTube-Start am 18. Mai 2021
+
+## Chronologische Beweiskette (2008-2020)
+
+### 2008-2009: Ozeaneum Stralsund (Nachweisbar)
+
+| Beweis | Details | Quelle |
+|--------|---------|--------|
+| **Anstellungsverhältnis** | Teamleiter vom 1. Dezember 2008 bis 30. November 2009 | Ozeaneum Stralsund (offizielle Bestätigung an Zoos.media) |
+| **Dienstreisen** | 4 Reisen (3 nach Norwegen, 1 nach Island) für Fischefang | Ozeaneum Stralsund |
+| **Widerspruch** | Lehmann behauptet "viele Reisen um die Welt" - Ozeaneum dementiert | Wikipedia, Zoos.media |
+| **Ende** | Sinneswandel bezüglich Tierhaltung, Arbeitsvertrag nicht verlängert | Wikipedia |
+
+**Dokumentationsnachweis:**
+- `zoos.media/medien-echo/robert-marc-lehmann-leiter-aquarium-europa-groesstes/` - Ozeaneum-Stellungnahme
+- Wikipedia-Artikel mit Ozeaneum-Informationen
+
+---
+
+### 2010: Erste fotografische Aktivitäten
+
+| Beweis | Details | Quelle |
+|--------|---------|--------|
+| **Kamera-Kauf** | Erste "richtige Kamera" vor Expeditionen nach Mexiko | femtastics Interview |
+| **Expeditionen** | Erste Expeditionen nach Mexiko | femtastics |
+
+---
+
+### 2013: Submaris-Gründung & Cannes-Awards (Hoch dokumentiert)
+
+| Beweis | Details | Quelle |
+|--------|---------|--------|
+| **Submaris-Gründung** | Forschungstauchgruppe mit Christian Howe, Uli Kunz, Philipp Schubert, Florian Huber | Wikipedia, Submaris-Website |
+| **Cannes Awards** | **DOPPEL-AUSZEICHNUNG** bei Cannes Corporate Media & TV Awards 2013 | Cannes Awards, Florian Huber Website |
+| **Preise 2013** | - Bester 3D-Film (Schwarzer Delphin) | Florian Huber |
+| | - Beste Dokumentation Adventure & Travel (Goldener Delphin) | Florian Huber |
+| **Film** | "Verborgene Welten – Die Höhlen der Toten" (Regie: Norbert Vander) | Spielfilm.de, Cinetixx |
+| **NDR-Auftritte** | Zwei Episoden in NDR Nordstory mit Submaris | Wikipedia |
+
+**URLs:**
+- `florian-huber.info/projektliste/verborgene-welten-3d-die-hoehlen-der-toten.html`
+- `spielfilm.de/filme/2996907/verborgene-welten-3d-die-hoehlen-der-toten`
+- `submaris.com/de/start/teamprofil.html`
+
+---
+
+### 2015: National Geographic Durchbruch (Hoch dokumentiert)
+
+| Beweis | Details | Quelle |
+|--------|---------|--------|
+| **Auszeichnung** | National Geographic Fotograf des Jahres 2015 | TLZ, Canon Europe, T-Online |
+| **Wettbewerb** | "Wildes Deutschland" - Fotowettbewerb | National Geographic |
+| **Preisfoto** | Kegelrobbe vor Helgoland | Canon Europe |
+| **Bedeutung** | "Öffnete neue Türen" (eigene Aussage) | Wikipedia |
+
+**WICHTIGER HINWEIS:**
+Es gab Kontroversen um diesen Preis. Laut zoos.media war der internationale Gewinner des National Geographic Photo Contest 2015 James Smart (Australien). Lehmann gewann möglicherweise eine nationale/deutsche Auszeichnung oder Sonderkategorie.
+
+**URLs:**
+- `tlz.de/leben/vermischtes/article221227585/Jenaer-ist-fuer-National-Geographic-der-Fotograf-des-Jahres.html`
+- `canon-europe.com/pro/ambassadors/robert-marc-lehmann/`
+- `zoos.media/medien-echo/robert-marc-lehmann-national-geographic-fotograf-des-jahres-2015/`
+
+---
+
+### 2017: Deutscher Meeres-Filmpreis & Buchveröffentlichung
+
+| Beweis | Details | Quelle |
+|--------|---------|--------|
+| **CineMare-Preis** | Deutscher Meeres-Filmpreis des Festivals CineMare | Wikipedia, CineMare Katalog |
+| **Film** | "Bei Auftrag – Abenteuer!" | NDR, CineMare |
+| **Team** | Zusammen mit Submaris & NDR-Team um Thomas Mauch | Wikipedia |
+| **Buch** | **"Michel und die Fischräuber"** (Kinderbuch) | Amazon, Wikiwand |
+| **Buch-Details** | ISBN: 978-3-9816809-5-9, Verlag Gerhard Wegner, Offenbach | Wikiwand, Amazon |
+| **Koautoren** | Gerhard Wegner & Johanna Ricker | Wikiwand |
+| **Erscheinung** | 10. August 2017 | Ocean-Heroes.shop |
+
+**URLs:**
+- `amazon.de/Michel-Fischräuber-kleine-Geschichten-Unterwasserwelt/dp/3981680952`
+- `cinemare.org` (Filmfestival)
+- `ndr.de/fernsehen/sendungen/die_nordstory/Bei-Auftrag-Abenteuer,sendung605812.html`
+
+---
+
+### 2018: "Mensch des Jahres" & KSK-Bundeswehr (Hoch dokumentiert)
+
+| Beweis | Details | Quelle |
+|--------|---------|--------|
+| **Tauchen Award** | "Mensch des Jahres 2018" - Tauchen Magazin | Sportmarkt.info, Wikipedia |
+| **Wahl** | Über 100.000 Leser stimmten ab | Sportmarkt.info |
+| **Kategorie** | 20. Tauchen-Awards | Sportmarkt.info |
+| **KSK-Serie** | Webserie "KSK – kämpfe nie für dich allein" | DBWV, YouTube |
+| **Besonderheit** | Einziger Zivilist im Ausbildungsprogramm "Dschungelkampf" | DBWV |
+| **Drehorte** | Belize (mittelamerikanischer Dschungel) & Dänemark | DBWV |
+| **Veröffentlichung** | KSK-Podcast begleitend zur Serie | Spotify, Apple Podcasts |
+
+**URLs:**
+- `sportmarkt.info/meeresbiologe-robert-marc-lehmann-mit-dem-mensch-des-jahres-award-gekuert/`
+- `dbwv.de/aktuelle-themen/blickpunkt/beitrag/das-ksk-bekommt-ein-gesicht/`
+- `youtube.com/playlist?list=PL0nyHde37tIb4uJTpTTDZ6QEumRgqJxMR` (KSK-Folgen)
+
+---
+
+### 2019: Mission Erde e.V. Gründung
+
+| Beweis | Details | Quelle |
+|--------|---------|--------|
+| **Vereinsgründung** | Mission Erde e.V. als gemeinnütziger Verein | Wikipedia, missionerde.de |
+| **Zweck** | Umwelt- und Tierschutz, Artenerhalt | Vereinswebsite |
+| **Struktur** | Gemeinnützig, Spendenabzugsberechtigt | missionerde.de |
+
+---
+
+### 2020: VOX Natur-Botschafter & TV-Durchbruch (Nachweisbar)
+
+| Beweis | Details | Quelle |
+|--------|---------|--------|
+| **VOX-Vertrag** | Natur-Botschafter seit Herbst 2020 | Wikipedia, VOX.de |
+| **Erstausstrahlung** | 12.09.2020 um 22:15 Uhr: "Dem Fuchshai auf der Spur" | Fernsehserien.de, TV Wunschliste |
+| **TV-Dokus** | "Robert Marc Lehmann: Abenteuer extrem" (VOX) | Wikipedia |
+| **Sylt-Ausstellung** | Ausstellung "Abenteuer extrem" (Nord-Ostsee Sparkasse) | Holger Ruedel |
+
+**VERIFIZIERUNG:**
+- `fernsehserien.de/robert-marc-lehmann/sendetermine/-1` - Zeigt 12.09.2020 22:15 Uhr
+- `wunschliste.de/serie/robert-marc-lehmann` - TV-Datenbank
+- `vox.de/cms/sendungen/robert-marc-lehmann.html` - Offizielle VOX-Seite
+
+---
+
+## Zusammenfassung der Beweiskraft
+
+### Unumstößliche Beweise (höchste Kategorie)
+1. **Ozeaneum (2008-2009)** - Offizielle Bestätigung des Arbeitgebers
+2. **Cannes Awards (2013)** - Internationale Film-Auszeichnungen
+3. **CineMare Preis (2017)** - Deutscher Meeres-Filmpreis
+4. **Buchveröffentlichung (2017)** - ISBN 978-3-9816809-5-9, physisches Buch
+5. **Tauchen Award (2018)** - Über 100.000 Leser-Beteiligung
+6. **KSK-Serie (2018)** - Bundeswehr-Dokumentation mit DBWV-Beteiligung
+7. **VOX-Vertrag (2020)** - TV-Vertrag mit festem Sendeplatz
+
+### Kontroverse/Fragwürdige Beweise
+1. **National Geographic 2015** - Internationale vs. nationale Auszeichnung unklar
+2. **Ozeaneum-Reisen** - Diskrepanz zwischen eigenen Aussagen und Arbeitgeber-Aussagen
+
+### Gesamtbewertung
+- **13+ Jahre nachweisbare Aktivität** vor YouTube (2008-2021)
+- **Multiple nationale & internationale Auszeichnungen**
+- **Buchveröffentlichungen mit ISBN**
+- **TV-Auftritte mit festen Sendeplätzen**
+- **Wissenschaftliche Arbeit (GEOMAR, Submaris)**
+
+---
+
+**Erstellt**: 30. März 2026
+**Beweisstandard**: Evidenzbasiert mit URLs
+**Zeitraum abgedeckt**: 2008-2020 (13 Jahre vor YouTube)
 
 ### Artikel & Interviews mit Datumsangaben
 
