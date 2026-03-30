@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Marc Lehmann - Fanprojekt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #1a1a1a;
+            --secondary: #2d2d2d;
+            --accent: #00a8cc;
+            --accent-dark: #0088a3;
+            --text: #333;
+            --text-light: #666;
+            --white: #fff;
+            --light-bg: #f5f5f5;
+            --gradient: linear-gradient(135deg, #00a8cc 0%, #0088a3 100%);
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--white);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+
+        /* Header */
+        header {
+            background: var(--primary);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: var(--white);
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1582967788606-a171f1080ca8?w=1920') center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--white);
+            padding-top: 80px;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            padding: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            line-height: 1.1;
+        }
+
+        .hero h1 span {
+            color: var(--accent);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.8;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: var(--gradient);
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,168,204,0.4);
+        }
+
+        /* Sections */
+        section {
+            padding: 5rem 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+
+        .section-title p {
+            color: var(--text-light);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section-title .line {
+            width: 60px;
+            height: 3px;
+            background: var(--accent);
+            margin: 1rem auto;
+        }
+
+        /* About Section */
+        .about {
+            background: var(--light-bg);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-image {
+            position: relative;
+        }
+
+        .about-image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+        }
+
+        .about-image::before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            right: 20px;
+            bottom: 20px;
+            border: 3px solid var(--accent);
+            border-radius: 10px;
+            z-index: -1;
+        }
+
+        .about-content h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary);
+        }
+
+        .about-content p {
+            margin-bottom: 1.5rem;
+            color: var(--text-light);
+        }
+
+        .about-content ul {
+            list-style: none;
+            margin-top: 2rem;
+        }
+
+        .about-content li {
+            padding: 0.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .about-content li::before {
+            content: '✓';
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        /* Stats Section */
+        .stats {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .stats-item {
+            padding: 2rem;
+        }
+
+        .stats-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--accent);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .stats-label {
+            font-size: 1rem;
+            opacity: 0.8;
+            margin-top: 0.5rem;
+        }
+
+        /* Timeline Section */
+        .timeline {
+            background: var(--light-bg);
+        }
+
+        .timeline-container {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 3px;
+            height: 100%;
+            background: var(--accent);
+        }
+
+        .timeline-item {
+            display: flex;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .timeline-item:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+
+        .timeline-content {
+            width: 45%;
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        .timeline-year {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--accent);
+            color: var(--white);
+            padding: 0.5rem 1.5rem;
+            border-radius: 20px;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .timeline-content h4 {
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .timeline-content p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* Awards Section */
+        .awards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .award-card {
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+
+        .award-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .award-header {
+            background: var(--gradient);
+            padding: 1.5rem;
+            color: var(--white);
+        }
+
+        .award-header h4 {
+            font-size: 1.2rem;
+        }
+
+        .award-body {
+            padding: 1.5rem;
+        }
+
+        .award-body p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        /* Books Section */
+        .books {
+            background: var(--light-bg);
+        }
+
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .book-card {
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+
+        .book-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .book-cover {
+            height: 300px;
+            background: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .book-info {
+            padding: 1.5rem;
+        }
+
+        .book-info h4 {
+            margin-bottom: 0.5rem;
+            color: var(--primary);
+        }
+
+        .book-info p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        /* Social Media */
+        .social-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .social-card {
+            background: var(--white);
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .social-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .social-stats {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .social-label {
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.8rem;
+        }
+
+        /* Controversies Section */
+        .controversies {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .controversies .section-title h2 {
+            color: var(--white);
+        }
+
+        .controversies .section-title p {
+            color: rgba(255,255,255,0.7);
+        }
+
+        .controversy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .controversy-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 2rem;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .controversy-card h4 {
+            color: var(--accent);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .controversy-card p {
+            color: rgba(255,255,255,0.7);
+            font-size: 0.95rem;
+        }
+
+        /* Partners Section */
+        .partners-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .partner-logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-light);
+            font-family: 'Montserrat', sans-serif;
+            opacity: 0.6;
+            transition: opacity 0.3s;
+        }
+
+        .partner-logo:hover {
+            opacity: 1;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary);
+            color: var(--white);
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .footer-logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 1rem;
+        }
+
+        .footer-logo span {
+            color: var(--accent);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 2rem;
+            margin-top: 2rem;
+            color: rgba(255,255,255,0.5);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-stats {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .timeline-container::before {
+                left: 20px;
+            }
+
+            .timeline-item,
+            .timeline-item:nth-child(odd) {
+                flex-direction: column;
+                padding-left: 50px;
+            }
+
+            .timeline-content {
+                width: 100%;
+            }
+
+            .timeline-year {
+                left: 20px;
+                transform: translateX(-50%);
+            }
+
+            .books-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .social-grid {
+                grid-template-columns: 1fr;
+            }
+
+            nav {
+                display: none;
+            }
+
+            .header-content {
+                justify-content: center;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate {
+            animation: fadeInUp 0.8s ease forwards;
+        }
+
+        .delay-1 { animation-delay: 0.1s; }
+        .delay-2 { animation-delay: 0.2s; }
+        .delay-3 { animation-delay: 0.3s; }
+        .delay-4 { animation-delay: 0.4s; }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo">Robert Marc <span>Lehmann</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#about">Über mich</a></li>
+                    <li><a href="#timeline">Chronologie</a></li>
+                    <li><a href="#awards">Auszeichnungen</a></li>
+                    <li><a href="#books">Bücher</a></li>
+                    <li><a href="#social">Statistiken</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Robert Marc <span>Lehmann</span></h1>
+            <p>Meeresbiologe • Forschungstaucher • Fotograf • Filmemacher • Umweltschützer • YouTuber • Autor</p>
+            <a href="#about" class="btn">Mehr erfahren</a>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">1.02M</div>
+                    <div class="stat-label">YouTube Abonnenten</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">732K</div>
+                    <div class="stat-label">Instagram Follower</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">120+</div>
+                    <div class="stat-label">Länder bereist</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Auszeichnungen</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1551244072-5d12893278ab?w=800" alt="Robert Marc Lehmann">
+                </div>
+                <div class="about-content">
+                    <h3>Der Meeresbiologe und Umweltaktivist</h3>
+                    <p>Robert Marc Lehmann ist ein deutscher Meeresbiologe, Forschungstaucher, Fotograf, Filmemacher, Umweltschützer, YouTuber und Autor. Bekannt durch seine Dokumentationen über die Unterwasserwelt und seinen Einsatz für den Schutz der Meere und Meerestiere.</p>
+                    <p>Mit seiner Leidenschaft für die Natur und den Ozeanen hat er Millionen von Menschen erreicht und für den Umwelt- und Tierschutz sensibilisiert.</p>
+                    <ul>
+                        <li>Geburtsdatum: 7. Februar 1983</li>
+                        <li>Geburtsort: Jena, DDR</li>
+                        <li>Studium: Universität Kiel (Zoologie & biologische Meereskunde)</li>
+                        <li>Ausbildung: Forschungstaucher</li>
+                        <li>Gründer: Submaris (2013), Mission Erde e.V. (2019)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stats-item">
+                    <div class="stats-number">1.02M</div>
+                    <div class="stats-label">YouTube Abonnenten</div>
+                </div>
+                <div class="stats-item">
+                    <div class="stats-number">1,059</div>
+                    <div class="stats-label">YouTube Videos</div>
+                </div>
+                <div class="stats-item">
+                    <div class="stats-number">279M+</div>
+                    <div class="stats-label">Video Views</div>
+                </div>
+                <div class="stats-item">
+                    <div class="stats-number">732K</div>
+                    <div class="stats-label">Instagram Follower</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline" id="timeline">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mein Werdegang</h2>
+                <div class="line"></div>
+                <p>Die wichtigsten Stationen meiner Karriere</p>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4><a href="https://zoos.media/medien-echo/robert-marc-lehmann-leiter-aquarium-europa-groesstes/" target="_blank" style="color: var(--accent); text-decoration: none;">Ozeaneum Stralsund</a></h4>
+                        <p>Teamleiter und Taucheinsatzleiter. Arbeit an der Fischeversorgung für die Aquarien.</p>
+                    </div>
+                    <div class="timeline-year">2008-2009</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4><a href="https://submaris.de/ueber-uns/" target="_blank" style="color: var(--accent); text-decoration: none;">Gründung Submaris</a></h4>
+                        <p>Mitbegründung der Forschungstauchgruppe Submaris mit Christian Howe, Uli Kunz, Philipp Schubert und Florian Huber.</p>
+                    </div>
+                    <div class="timeline-year">2013</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4><a href="https://florian-huber.info/projektliste/verborgene-welten-3d-die-hoehlen-der-toten.html" target="_blank" style="color: var(--accent); text-decoration: none;">Cannes Corporate Media Awards</a></h4>
+                        <p>Doppel-Auszeichnung: Bester 3D-Film und Beste Dokumentation für "Verborgene Welten".</p>
+                    </div>
+                    <div class="timeline-year">2013</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4><a href="https://tlz.de/leben/vermischtes/article221227585/Jenaer-ist-fuer-National-Geographic-der-Fotograf-des-Jahres.html" target="_blank" style="color: var(--accent); text-decoration: none;">National Geographic Fotograf des Jahres</a></h4>
+                        <p>Auszeichnung für das Foto einer Kegelrobbe vor Helgoland.</p>
+                    </div>
+                    <div class="timeline-year">2015</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4><a href="https://sportmarkt.info/meeresbiologe-robert-marc-lehmann-mit-dem-mensch-des-jahres-award-gekuert/" target="_blank" style="color: var(--accent); text-decoration: none;">Mensch des Jahres</a></h4>
+                        <p>Auszeichnung durch das Tauchen Magazin.</p>
+                    </div>
+                    <div class="timeline-year">2018</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4><a href="https://www.dbwv.de/aktuelle-themen/blickpunkt/beitrag/das-ksk-bekommt-ein-gesicht/" target="_blank" style="color: var(--accent); text-decoration: none;">KSK – Webserie</a></h4>
+                        <p>Teilnahme am Ausbildungsprogramm "Dschungelkampf" des Kommandos Spezialkräfte.</p>
+                    </div>
+                    <div class="timeline-year">2018</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4><a href="https://missionerde.de/der-verein/" target="_blank" style="color: var(--accent); text-decoration: none;">Mission Erde e.V.</a></h4>
+                        <p>Gründung des gemeinnützigen Vereins für Umwelt- und Tierschutz.</p>
+                    </div>
+                    <div class="timeline-year">2019</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4><a href="https://www.vox.de/robert-marc-lehmann-vox-zeigt-spektakulaere-dokumentationen-mit-robert-marc-lehmann-4597091" target="_blank" style="color: var(--accent); text-decoration: none;">VOX Natur-Botschafter</a></h4>
+                        <p>Start als Natur-Botschafter beim Fernsehsender VOX.</p>
+                    </div>
+                    <div class="timeline-year">2020</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4><a href="https://www.youtube.com/channel/UCPzVjl-zc4pQlkqoVKLa-Tw" target="_blank" style="color: var(--accent); text-decoration: none;">YouTube Kanalstart</a></h4>
+                        <p>Start des YouTube-Kanals "Robert Marc Lehmann – Mission Erde".</p>
+                    </div>
+                    <div class="timeline-year">2021</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4><a href="https://www.thalia.de/shop/home/artikeldetails/A1059363405" target="_blank" style="color: var(--accent); text-decoration: none;">Buch "Mission Erde"</a></h4>
+                        <p>Veröffentlichung des SPIEGEL-Bestsellers "Mission Erde – Die Welt ist es wert, um sie zu kämpfen".</p>
+                    </div>
+                    <div class="timeline-year">2021</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4><a href="https://us.youtubers.me/robert-marc-lehmann-mission-erde/youtuber-stats" target="_blank" style="color: var(--accent); text-decoration: none;">YouTube Platz 4</a></h4>
+                        <p>Platz 4 bei den meisten Abo-Zugewinnen in Deutschland.</p>
+                    </div>
+                    <div class="timeline-year">2022</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4><a href="https://www.bild.de/unterhaltung/bildgg/robert-marc-lehmann-verkuendet-seinen-abschied-aus-tierschutz-689b3824f3b330071983f5c5" target="_blank" style="color: var(--accent); text-decoration: none;">Rückzug aus Tierschutz</a></h4>
+                        <p>Nach 17 Jahren (2008-2025) verkündet er seinen Rückzug aus dem Tierschutz für Nutz- und Haustiere.</p>
+                    </div>
+                    <div class="timeline-year">2025</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards">
+        <div class="container">
+            <div class="section-title">
+                <h2>Auszeichnungen & Erfolge</h2>
+                <div class="line"></div>
+                <p>Meine wichtigsten Auszeichnungen im Überblick</p>
+            </div>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <div class="award-header">
+                        <h4><a href="https://florian-huber.info/projektliste/verborgene-welten-3d-die-hoehlen-der-toten.html" target="_blank" style="color: white; text-decoration: none;">Cannes Corporate Media Awards</a></h4>
+                    </div>
+                    <div class="award-body">
+                        <p><strong>2013</strong> – Doppel-Auszeichnung: Bester 3D-Film (Schwarzer Delphin) und Beste Dokumentation Adventure & Travel (Goldener Delphin)</p>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="award-header">
+                        <h4><a href="https://tlz.de/leben/vermischtes/article221227585/Jenaer-ist-fuer-National-Geographic-der-Fotograf-des-Jahres.html" target="_blank" style="color: white; text-decoration: none;">National Geographic</a></h4>
+                    </div>
+                    <div class="award-body">
+                        <p><strong>2015</strong> – Fotograf des Jahres / Gewinner "Wildes Deutschland" für Kegelrobben-Foto vor Helgoland</p>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="award-header">
+                        <h4><a href="https://www.cinemare.de/" target="_blank" style="color: white; text-decoration: none;">CineMare Deutscher Meeres-Filmpreis</a></h4>
+                    </div>
+                    <div class="award-body">
+                        <p><strong>2017</strong> – Deutscher Meeres-Filmpreis für "Bei Auftrag – Abenteuer!" mit Submaris und NDR</p>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="award-header">
+                        <h4><a href="https://sportmarkt.info/meeresbiologe-robert-marc-lehmann-mit-dem-mensch-des-jahres-award-gekuert/" target="_blank" style="color: white; text-decoration: none;">Tauchen Magazin</a></h4>
+                    </div>
+                    <div class="award-body">
+                        <p><strong>2018</strong> – "Mensch des Jahres" bei den 20. Tauchen-Awards (über 100.000 Leser stimmten ab)</p>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="award-header">
+                        <h4><a href="https://www.gdtfoto.de/seiten/gdt-naturfotograf-des-jahres-ergebnisse-2021.html" target="_blank" style="color: white; text-decoration: none;">GDT Naturfotograf des Jahres</a></h4>
+                    </div>
+                    <div class="award-body">
+                        <p><strong>2021</strong> – 2. Platz Sonderkategorie "We are family"</p>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="award-header">
+                        <h4><a href="https://www.tierschutzpartei.de/" target="_blank" style="color: white; text-decoration: none;">Tierschutzpartei</a></h4>
+                    </div>
+                    <div class="award-body">
+                        <p><strong>2022</strong> – Mensch-Umwelt-Tierschutz-Medaille der Tierschutzpartei</p>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="award-header">
+                        <h4><a href="https://www.outdoor-media-awards.com/" target="_blank" style="color: white; text-decoration: none;">21st Century Adventurer Award</a></h4>
+                    </div>
+                    <div class="award-body">
+                        <p><strong>2025</strong> – Auszeichnung bei den European Outdoor Film Tour</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books Section -->
+    <section class="books" id="books">
+        <div class="container">
+            <div class="section-title">
+                <h2>Meine Bücher</h2>
+                <div class="line"></div>
+                <p>Meine Buchveröffentlichungen</p>
+            </div>
+            <div class="books-grid">
+                <div class="book-card">
+                    <div class="book-cover">
+                        Michel und die Fischräuber
+                    </div>
+                    <div class="book-info">
+                        <h4><a href="https://www.amazon.de/Michel-Fischr%C3%A4uber-kleine-Geschichten-Unterwasserwelt/dp/3981680952" target="_blank" style="color: var(--primary); text-decoration: none;">Michel und die Fischräuber</a></h4>
+                        <p>Kinderbuch über die Unterwasserwelt<br>Verlag Gerhard Wegner, 2017<br>ISBN: 978-3-9816809-5-9</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        Mission Erde
+                    </div>
+                    <div class="book-info">
+                        <h4><a href="https://www.thalia.de/shop/home/artikeldetails/A1059363405" target="_blank" style="color: var(--primary); text-decoration: none;">Mission Erde – Die Welt ist es wert, um sie zu kämpfen</a></h4>
+                        <p>SPIEGEL-Bestseller<br>Verlag Ludwig, 2021<br>ISBN: 978-3-453-28141-7</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        Meer als nur ein Bildband
+                    </div>
+                    <div class="book-info">
+                        <h4><a href="https://www.lehmanns.de/shop/naturwissenschaften/60575777-9783982457307-mission-erde-meer-als-nur-ein-bildband" target="_blank" style="color: var(--primary); text-decoration: none;">Mission Erde – Meer als nur ein Bildband</a></h4>
+                        <p>Bildband mit atemberaubenden Fotos<br>Mission Erde Media, 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social">
+        <div class="container">
+            <div class="section-title">
+                <h2>Social Media Statistiken</h2>
+                <div class="line"></div>
+                <p>Meine Präsenz in den sozialen Medien</p>
+            </div>
+            <div class="social-grid">
+                <div class="social-card">
+                    <div class="social-icon">📺</div>
+                    <div class="social-stats">1.02M</div>
+                    <div class="social-label">YouTube Abonnenten</div>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">📸</div>
+                    <div class="social-stats">732K</div>
+                    <div class="social-label">Instagram Follower</div>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">▶️</div>
+                    <div class="social-stats">1,059</div>
+                    <div class="social-label">YouTube Videos</div>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">👁️</div>
+                    <div class="social-stats">279M+</div>
+                    <div class="social-label">Video Views</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Controversies Section -->
+    <section class="controversies">
+        <div class="container">
+            <div class="section-title">
+                <h2>Kontroversen & Diskussionen</h2>
+                <div class="line"></div>
+                <p>Öffentliche Diskussionen und kritische Betrachtungen</p>
+            </div>
+            <div class="controversy-grid">
+                <div class="controversy-card">
+                    <h4><a href="https://zoos.media/medien-echo/robert-marc-lehmann-leiter-aquarium-europa-groesstes/" target="_blank" style="color: var(--accent); text-decoration: none;">Ozeaneum Stralsund</a></h4>
+                    <p>Diskrepanz zwischen eigenen Angaben (Abteilungsleiter, viele Weltreisen) und offizieller Stellungnahme des Ozeaneums (Teamleiter, nur 4 Reisen nach Skandinavien).</p>
+                </div>
+                <div class="controversy-card">
+                    <h4><a href="https://www.reddit.com/r/Laesterschwestern/comments/1i9xbua/sch%C3%B6nt_robert_marc_lehmann_seinen_lebenslauf/" target="_blank" style="color: var(--accent); text-decoration: none;">Studium & Qualifikation</a></h4>
+                    <p>Fragen zur genauen Studienrichtung und Diplomarbeit (Thema: Flusskrebse statt Meeresbiologie). Titel "Meeresbiologe" wird diskutiert.</p>
+                </div>
+                <div class="controversy-card">
+                    <h4><a href="https://www.welt.de/vermischtes/article69c8146a04eeb30f4b108255/wal-in-der-ostsee-kotzt-mich-mega-an-meeresbiologe-hat-nur-wenig-hoffnung-und-erhebt-schwere-vorwuerfe.html" target="_blank" style="color: var(--accent); text-decoration: none;">Wal-Rettung 2025</a></h4>
+                    <p>Öffentlicher Streit mit Experten des ITAW über Rettungsstrategien. Lehmann kritisierte das Rettungsteam öffentlich.</p>
+                </div>
+                <div class="controversy-card">
+                    <h4><a href="https://www.wuppertaler-rundschau.de/lokales/wuppertaler-zukunftsfestival-zensurvorwuerfe-von-lehmann_aid-127919821" target="_blank" style="color: var(--accent); text-decoration: none;">Wuppertal-Stadthalle 2025</a></h4>
+                    <p>Abgesagter Vortrag wegen Zoo-Kritik. Vorwurf der "Zensur" führte zu massivem Shitstorm (396.000+ Reaktionen).</p>
+                </div>
+                <div class="controversy-card">
+                    <h4><a href="https://www.bild.de/unterhaltung/bildgg/robert-marc-lehmann-verkuendet-seinen-abschied-aus-tierschutz-689b3824f3b330071983f5c5" target="_blank" style="color: var(--accent); text-decoration: none;">Rückzug aus Tierschutz</a></h4>
+                    <p>Verkündung des Rückzugs aus dem Tierschutz für Nutz- und Haustiere nach 17 Jahren, begründet mit "Hass aus eigenen Reihen".</p>
+                </div>
+                <div class="controversy-card">
+                    <h4><a href="https://zoos.media/medien-echo/mission-erde-finanzen-robert-marc-lehmann/" target="_blank" style="color: var(--accent); text-decoration: none;">Finanzierung & Transparenz</a></h4>
+                    <p>Fragen zur Finanzierung von Mission Erde e.V. und den "privaten Mitteln" vor 2019. Community fordert mehr Transparenz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2>Partner & Kooperationen</h2>
+                <div class="line"></div>
+                <p>Meine Partner und Unterstützer</p>
+            </div>
+            <div class="partners-grid">
+                <a href="https://www.canon.de/pro/ambassadors/robert-marc-lehmann/" class="partner-logo" target="_blank">Canon</a>
+                <a href="https://www.vox.de/cms/sendungen/robert-marc-lehmann.html" class="partner-logo" target="_blank">VOX</a>
+                <a href="https://www.ndr.de/fernsehen/sendungen/die_nordstory/Bei-Auftrag-Abenteuer,sendung605812.html" class="partner-logo" target="_blank">NDR</a>
+                <a href="https://www.zdf.de/" class="partner-logo" target="_blank">ZDF / Terra X</a>
+                <a href="https://www.greenpeace.de/" class="partner-logo" target="_blank">Greenpeace</a>
+                <a href="https://www.wwf.de/" class="partner-logo" target="_blank">WWF</a>
+                <a href="https://www.stop-finning.com/robert-marc-lehmann" class="partner-logo" target="_blank">Stop Finning</a>
+                <a href="https://missionerde.de/" class="partner-logo" target="_blank">Mission Erde e.V.</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sources Section -->
+    <section class="sources" id="sources" style="background: var(--light-bg);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Quellen & Nachweise</h2>
+                <div class="line"></div>
+                <p>Alle Informationen wurden aus öffentlichen Quellen zusammengestellt</p>
+            </div>
+            <div class="sources-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; text-align: left;">
+                <div style="background: var(--white); padding: 1.5rem; border-radius: 10px;">
+                    <h4 style="color: var(--accent); margin-bottom: 0.5rem;">Biografie & Daten</h4>
+                    <ul style="list-style: none; font-size: 0.85rem; color: var(--text-light);">
+                        <li><a href="https://de.wikipedia.org/wiki/Robert_Marc_Lehmann" target="_blank" style="color: var(--accent);">Wikipedia</a></li>
+                        <li><a href="https://www.uamr.de/robert-marc-lehmann-vermoegen-und-biographie/" target="_blank" style="color: var(--accent);">UAMR.de</a></li>
+                        <li><a href="https://www.canon-europe.com/pro/ambassadors/robert-marc-lehmann/" target="_blank" style="color: var(--accent);">Canon Europe</a></li>
+                        <li><a href="https://www.robertmarclehmann.com/de/" target="_blank" style="color: var(--accent);">Offizielle Website</a></li>
+                    </ul>
+                </div>
+                <div style="background: var(--white); padding: 1.5rem; border-radius: 10px;">
+                    <h4 style="color: var(--accent); margin-bottom: 0.5rem;">YouTube & Social Media</h4>
+                    <ul style="list-style: none; font-size: 0.85rem; color: var(--text-light);">
+                        <li><a href="https://www.youtube.com/@MissionErde" target="_blank" style="color: var(--accent);">YouTube Kanal</a></li>
+                        <li><a href="https://www.instagram.com/robertmarclehmann/" target="_blank" style="color: var(--accent);">Instagram</a></li>
+                        <li><a href="https://us.youtubers.me/robert-marc-lehmann-mission-erde/youtuber-stats" target="_blank" style="color: var(--accent);">YouTubers.me Stats</a></li>
+                        <li><a href="https://socialblade.com/youtube/handle/missionerde" target="_blank" style="color: var(--accent);">Social Blade</a></li>
+                    </ul>
+                </div>
+                <div style="background: var(--white); padding: 1.5rem; border-radius: 10px;">
+                    <h4 style="color: var(--accent); margin-bottom: 0.5rem;">Auszeichnungen</h4>
+                    <ul style="list-style: none; font-size: 0.85rem; color: var(--text-light);">
+                        <li><a href="https://florian-huber.info/projektliste/verborgene-welten-3d-die-hoehlen-der-toten.html" target="_blank" style="color: var(--accent);">Cannes Awards 2013</a></li>
+                        <li><a href="https://tlz.de/leben/vermischtes/article221227585/Jenaer-ist-fuer-National-Geographic-der-Fotograf-des-Jahres.html" target="_blank" style="color: var(--accent);">National Geographic 2015</a></li>
+                        <li><a href="https://sportmarkt.info/meeresbiologe-robert-marc-lehmann-mit-dem-mensch-des-jahres-award-gekuert/" target="_blank" style="color: var(--accent);">Tauchen Award 2018</a></li>
+                        <li><a href="https://www.gdtfoto.de/seiten/gdt-naturfotograf-des-jahres-ergebnisse-2021.html" target="_blank" style="color: var(--accent);">GDT 2021</a></li>
+                    </ul>
+                </div>
+                <div style="background: var(--white); padding: 1.5rem; border-radius: 10px;">
+                    <h4 style="color: var(--accent); margin-bottom: 0.5rem;">Bücher</h4>
+                    <ul style="list-style: none; font-size: 0.85rem; color: var(--text-light);">
+                        <li><a href="https://www.amazon.de/Michel-Fischr%C3%A4uber-kleine-Geschichten-Unterwasserwelt/dp/3981680952" target="_blank" style="color: var(--accent);">Michel und die Fischräuber (Amazon)</a></li>
+                        <li><a href="https://www.thalia.de/shop/home/artikeldetails/A1059363405" target="_blank" style="color: var(--accent);">Mission Erde (Thalia)</a></li>
+                        <li><a href="https://www.lehmanns.de/shop/naturwissenschaften/60575777-9783982457307-mission-erde-meer-als-nur-ein-bildband" target="_blank" style="color: var(--accent);">Meer als nur ein Bildband</a></li>
+                    </ul>
+                </div>
+                <div style="background: var(--white); padding: 1.5rem; border-radius: 10px;">
+                    <h4 style="color: var(--accent); margin-bottom: 0.5rem;">TV & Medien</h4>
+                    <ul style="list-style: none; font-size: 0.85rem; color: var(--text-light);">
+                        <li><a href="https://www.fernsehserien.de/robert-marc-lehmann/sendetermine/-1" target="_blank" style="color: var(--accent);">Fernsehserien.de</a></li>
+                        <li><a href="https://www.wunschliste.de/serie/robert-marc-lehmann" target="_blank" style="color: var(--accent);">TV Wunschliste</a></li>
+                        <li><a href="https://www.dbwv.de/aktuelle-themen/blickpunkt/beitrag/das-ksk-bekommt-ein-gesicht/" target="_blank" style="color: var(--accent);">DBWV (KSK)</a></li>
+                        <li><a href="https://www.stern.de/kultur/tv/meeresbiologe-robert-marc-lehmann-fordert-rettung-der-oceane-30749712.html" target="_blank" style="color: var(--accent);">STERN</a></li>
+                    </ul>
+                </div>
+                <div style="background: var(--white); padding: 1.5rem; border-radius: 10px;">
+                    <h4 style="color: var(--accent); margin-bottom: 0.5rem;">Kontroversen & Kritik</h4>
+                    <ul style="list-style: none; font-size: 0.85rem; color: var(--text-light);">
+                        <li><a href="https://zoos.media/medien-echo/robert-marc-lehmann-leiter-aquarium-europa-groesstes/" target="_blank" style="color: var(--accent);">Zoos.media (Ozeaneum)</a></li>
+                        <li><a href="https://www.welt.de/vermischtes/article69c8146a04eeb30f4b108255/wal-in-der-ostsee-kotzt-mich-mega-an-meeresbiologe-hat-nur-wenig-hoffnung-und-erhebt-schwere-vorwuerfe.html" target="_blank" style="color: var(--accent);">WELT (Wal-Rettung)</a></li>
+                        <li><a href="https://www.wuppertaler-rundschau.de/lokales/wuppertaler-zukunftsfestival-zensurvorwuerfe-von-lehmann_aid-127919821" target="_blank" style="color: var(--accent);">Wuppertaler Rundschau</a></li>
+                        <li><a href="https://www.bild.de/unterhaltung/bildgg/robert-marc-lehmann-verkuendet-seinen-abschied-aus-tierschutz-689b3824f3b330071983f5c5" target="_blank" style="color: var(--accent);">BILD (Rückzug)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-logo">Robert Marc <span>Lehmann</span> – Fanprojekt</div>
+            <p>Dies ist ein unabhängiges Fanprojekt. Alle Informationen wurden aus öffentlichen Quellen zusammengestellt.</p>
+            <div class="footer-links">
+                <a href="#about">Über mich</a>
+                <a href="#timeline">Chronologie</a>
+                <a href="#awards">Auszeichnungen</a>
+                <a href="#books">Bücher</a>
+                <a href="#social">Statistiken</a>
+            </div>
+            <div class="footer-bottom">
+                <p>Fanprojekt Robert Marc Lehmann – Das umfassendste Fanprojekt der Welt</p>
+                <p style="margin-top: 1rem;">TVN • RTL • SAT1 • ARD • ZDF • VOX • RND • MDSCK</p>
+                <p style="margin-top: 1rem;">Erstellt: 30. März 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Header background on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.background = 'rgba(26, 26, 26, 0.95)';
+            } else {
+                header.style.background = 'var(--primary)';
+            }
+        });
+
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.timeline-item, .award-card, .book-card, .social-card, .controversy-card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
