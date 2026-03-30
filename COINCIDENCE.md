@@ -177,9 +177,102 @@ Die Analyse zeigt mehrere Bereiche, in denen Robert Marc Lehmanns öffentliche D
 
 **Dokument erstellt am**: 30. März 2026
 **Zweck**: Kritische, evidenzbasierte Analyse von Widersprüchlichkeiten
-**Anzahl identifizierter Widersprüche**: 6 Hauptthemen
-**Quellen**: 15+ URLs
+## 7. STUDIUMS-ZWEIFEL: Meeresbiologie vs. Allgemeine Biologie
+
+### Die Behauptung
+
+Robert Marc Lehmann wird durchgehend als **"Meeresbiologe"** und **"Diplom-Meeresbiologe"** bezeichnet.
+
+### Die Recherche-Ergebnisse
+
+| Behauptung | Realität | Quelle |
+|------------|----------|--------|
+| "Studium der Biologie... Zoologie und biologische Meereskunde" (Wikipedia) | ⚠️ **Kein Studiengang "Meeresbiologie" an CAU Kiel in den 2000ern** | zoos.media |
+| "Diplom-Meeresbiologe" | ⚠️ **Diplomarbeit über Flusskrebse** (Süßwasser!) | zoos.media, Reddit |
+| "Forschungstaucher" | ✅ Ausbildung bestätigt | Canon Europe |
+
+### Die Diplomarbeit-Entdeckung
+
+**Schockierender Fund**: Laut zoos.media schrieb Lehmann seine Diplomarbeit über **Flusskrebse** - nicht über Meerestiere, Haie oder Wale!
+
+**Das bedeutet**:
+- Möglicherweise Diplom in **Allgemeiner Biologie**, nicht spezialisierter Meeresbiologie
+- Der Titel "Meeresbiologe" ist möglicherweise **irreführend**
+- Alternative Erklärung: Schwerpunkt "biologische Meereskunde" innerhalb Allgemeiner Biologie
+
+### Quellen
+- zoos.media: `https://zoos.media/medien-echo/ist-robert-marc-lehmann-wirklich-meeresbiologe/`
+- Reddit r/Laesterschwestern: `https://www.reddit.com/r/Laesterschwestern/comments/1i9xbua/sch%C3%B6nt_robert_marc_lehmann_seinen_lebenslauf/`
+- Universität Passau: `https://www.uni-passau.de/local-heroes/sinnfluencer/artikel-sinnfluencer/lehmann-robert-marc`
 
 ---
 
-*Hinweis: Diese Dokumentation dient der transparenten Aufarbeitung öffentlich zugänglicher Informationen und stellt keine Wertung der Person oder ihrer Arbeit dar.*
+## 8. WUPPERTAL-STADTHALLE KONTROVERSE (Mai 2025)
+
+### Der Vorfall
+
+| Detail | Information |
+|--------|-------------|
+| **Datum** | Mai 2025 |
+| **Veranstaltung** | Wuppertaler Zukunftsfestival |
+| **Geplant** | Vortrag von Robert Marc Lehmann |
+| **Ergebnis** | ABGESAGT - öffentlicher Streit |
+
+### Lehmanns Vorwurf: "Zensur"
+
+Lehmann behauptet auf Instagram:
+> "Man hat versucht, mich zu zensieren"
+> "Ich wurde aufgefordert, meine kritische Haltung zu zoologischen Einrichtungen in meinem Vortrag im Rahmen des Nachhaltigkeits-Festivals nicht thematisieren zu dürfen"
+
+### Stadthalle-Statement
+
+Die Wuppertaler Stadthalle erklärte:
+> "In der weiteren Abstimmung zu Rahmen und Inhalt des Vortrages waren auf Seite der Stadthalle Zweifel daran aufgekommen, ob eine vom Wissenschaftler angekündigte Zoo-Kritik für das geplante Familien-Event unter dem Thema Nachhaltigkeit passend sei."
+
+### Die Folgen: MASSIVER Shitstorm
+
+| Metrik | Ausmaß |
+|--------|--------|
+| **Reaktionen** | 396.000+ (Stand 21.05.2025) |
+| **Kommentare** | 4.000+ |
+| **Ziel** | Shitstorm gegen die Wuppertaler Stadthalle |
+| **Medien** | Wuppertaler Rundschau, Gerati.de, Wuppertal-Total, njuuz.de |
+
+### Politische Reaktionen
+
+- **Linkes Bündnis Wuppertal**: Kritisierte das Verhalten der Stadthalle
+- **Öffentliche Debatte**: Zensur vs. angemessene Inhalte für Familien-Events
+
+### Quellen
+- Wuppertaler Rundschau: `https://www.wuppertaler-rundschau.de/lokales/wuppertaler-zukunftsfestival-zensurvorwuerfe-von-lehmann_aid-127919821`
+- Wuppertal.de (Stadt): `https://www.wuppertal.de/presse/meldungen/meldungen-2025/mai/zukunftsfestival-reaktion.php`
+- Wuppertal-Total: `https://wuppertal-total.de/stadtleben/137389/`
+- Gerati.de: `https://gerati.de/2025/05/21/robert-marc-lehmann-2qx9/`
+
+---
+
+## 9. KINDHEIT & FRÜHE PRÄGUNG: Neue Details
+
+### Die Entdeckung
+
+Bisher unbekannte Details über Lehmanns Kindheit:
+
+| Alter | Erlebnis | Quelle |
+|-------|----------|--------|
+| **6 Jahre** | Vater bringt Buch über **Haie** mit → Faszination für Unterwasserwelt | Universität Passau |
+| **Kindheit** | Wuchs in **Jena (DDR)** auf | UAMR.de, IMDb |
+| **Frühe Leidenschaft** | "Wollte von klein auf Wale retten und Orang-Utans" | Canon Europe |
+
+### Bedeutung
+
+Dies erklärt die tiefe emotionale Verbindung zu Haie und Meerestieren - geprägt durch ein einzelnes Buch vom Vater im Alter von 6 Jahren.
+
+### Quellen
+- Universität Passau: `https://www.uni-passau.de/local-heroes/sinnfluencer/artikel-sinnfluencer/lehmann-robert-marc`
+- UAMR.de: `https://www.uamr.de/robert-marc-lehmann-vermoegen-und-biographie/`
+- Canon Europe: `https://www.canon-europe.com/pro/ambassadors/robert-marc-lehmann/`
+
+---
+
+**Anzahl identifizierter Widersprüche**: 9 Hauptthemen (+3 neue)
+**Quellen**: 25+ URLs (+10 neue)

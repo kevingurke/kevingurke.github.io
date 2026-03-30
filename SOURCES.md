@@ -885,3 +885,39 @@ Es gab Kontroversen um diesen Preis. Laut zoos.media war der internationale Gewi
 **Letzte Aktualisierung**: 30. März 2026
 **Anzahl der Quellen**: 95+ URLs
 **Anzahl der Datensätze**: 200+ Einträge
+
+---
+
+# ERGÄNZENDE RECHERCHE (Neue Funde - 30. März 2026)
+
+## Neue kritische Quellen
+
+### Studiums-Zweifel & Diplomarbeit
+- **zoos.media**: `https://zoos.media/medien-echo/ist-robert-marc-lehmann-wirklich-meeresbiologe/` - "Diplomarbeit über Flusskrebse", "Kein Studiengang Meeresbiologie an CAU Kiel in den 2000ern"
+- **Reddit r/Laesterschwestern**: `https://www.reddit.com/r/Laesterschwestern/comments/1i9xbua/sch%C3%B6nt_robert_marc_lehmann_seinen_lebenslauf/` - "Schönt Robert Marc Lehmann seinen Lebenslauf?"
+- **Reddit r/Laesterschwestern**: `https://www.reddit.com/r/Laesterschwestern/comments/1e6g33e/was_ist_zwischen_robert_marc_lehmann_und_stephan/` - Wal-Rettung Kontroverse
+- **Reddit r/Laesterschwestern**: `https://www.reddit.com/r/Laesterschwestern/comments/1g9tde0/ist_robert_marc_lehmann_ein_weiterer_tiefpunkt/` - Kritische Diskussion
+- **Universität Passau**: `https://www.uni-passau.de/local-heroes/sinnfluencer/artikel-sinnfluencer/lehmann-robert-marc` - "Bereits im Alter von sechs Jahren wurde seine Neugier für die Unterwasserwelt... geweckt. Nachdem sein Vater ihm ein Buch über Haie mitgebracht hatte"
+
+### Wuppertal-Stadthalle Kontroverse (Mai 2025)
+- **Wuppertaler Rundschau**: `https://www.wuppertaler-rundschau.de/lokales/wuppertaler-zukunftsfestival-zensurvorwuerfe-von-lehmann_aid-127919821` - "Zensurvorwürfe von Lehmann", 396.000 Reaktionen, 4.000 Kommentare
+- **Wuppertal.de**: `https://www.wuppertal.de/presse/meldungen/meldungen-2025/mai/zukunftsfestival-reaktion.php` - Offizielle Stellungnahme der Stadt
+- **Wuppertal-Total**: `https://wuppertal-total.de/stadtleben/137389/` - "Lehmann gegen Wuppertaler Zoo?"
+- **Gerati.de**: `https://gerati.de/2025/05/21/robert-marc-lehmann-2qx9/` - "Meinungsfreiheit à la Robert Marc Lehmann?"
+- **NJUUZ**: `https://www.njuuz.de/home/politik/kritik-an-tierhaltung-in-zoos-muss-moeglich-sein/` - Politische Debatte
+- **Linkes Bündnis**: `https://www.wuppertaler-rundschau.de/lokales/linkes-buendnis-kritisiert-verhalten-der-historischen-stadthalle_aid-127967109` - "Linkes Bündnis kritisiert Verhalten der Historischen Stadthalle"
+- **Leserbrief**: `https://www.wuppertaler-rundschau.de/leser/rundschau-leserbrief-zur-stadthalle-und-robert-marc-lehmann_aid-128155037`
+
+### Technische Ausrüstung (Detailliert)
+- **Canon Academy**: `https://www.academy.canon.de/de_DE/im-fokus/check-von-kameras-und-objektiven-mit-robert-marc-lehmann` - "Wildlife-Fotografie mit Robert Marc Lehmann"
+- **Canon Blog**: `https://blog.ac-foto.com/die-neue-canon-eos-r5-mark-ii-vorgestellt-von-robert-marc-lehmann/` - "Die neue Canon EOS R5 Mark II"
+- **Heinz Magazin PDF**: `https://www.robertmarclehmann.com/downloads/Heinz_Magazin_GER_Robert_und_die_Haie.pdf` - "Robert und die Haie"
+
+### Weitere relevante Quellen
+- **Ostsee-Zeitung**: `https://www.ostsee-zeitung.de/lokales/vorpommern-ruegen/stralsund/ozeaneum-stralsund-reagiert-auf-vorwuerfe-von-youtuber-robert-marc-lehmann-EY3MJBQVLMXQJUUFPBPNLP7KYA.html` - Ozeaneum-Stellungnahme
+- **DER ALBRECHT**: `https://der-albrecht.de/das-sind-erlebnisse-die-werde-ich-nie-vergessen/` - Alumni-Porträt Universität Kiel
+
+---
+
+**Gesamtanzahl Quellen nach Ergänzung**: 112+ URLs
+**Letzte Aktualisierung**: 30. März 2026 - 2:30 UTC
