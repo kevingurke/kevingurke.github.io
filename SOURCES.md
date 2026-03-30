@@ -335,6 +335,24 @@ Lehmann arbeitet mit folgenden Organisationen zusammen:
 20. **T-Online**: `https://www.t-online.de/nachrichten/panorama/id_101190938/wal-drama-biologe-lehmann-macht-institut-vorwuerfe.html` - "Biologe macht Institut Vorwürfe"
 21. **T-Online**: `https://www.t-online.de/nachrichten/panorama/tiere/id_101191288/wal-in-ostsee-robert-marc-lehmann-ueberwirft-sich-mit-experten.html` - "Lehmann überwirft sich mit Experten"
 22. **T-Online**: `https://www.t-online.de/nachrichten/panorama/tiere/id_101188280/wal-rettung-er-will-starten-biologe-robert-marc-lehmann-mit-hoffnung.html` - "Er will starten - Lehmann mit Hoffnung"
+23. **WELT**: `https://www.welt.de/vermischtes/article69c8146a04eeb30f4b108255/wal-in-der-ostsee-kotzt-mich-mega-an-meeresbiologe-hat-nur-wenig-hoffnung-und-erhebt-schwere-vorwuerfe.html` - "Kotzt mich mega an" - Lehmann erhebt schwere Vorwürfe
+24. **WELT**: `https://www.welt.de/newsticker/dpa_nt/infoline_nt/wissenschaft_nt/article69c918650618f10d5d96d888/streit-um-einsatz-des-biologen-robert-marc-lehmann.html` - "Streit um Einsatz des Biologen"
+25. **WELT**: `https://www.welt.de/vermischtes/article69c61959af187d606b814855/ostsee-ploetzlich-war-er-weg-wal-befreit-sich-und-schwimmt-auf-kurs-hinaus-aus-luebecker-bucht.html` - "Wal befreit sich und schwimmt auf Kurs hinaus"
+26. **WELT**: `https://www.welt.de/newsticker/dpa_nt/infoline_nt/wissenschaft_nt/article69c56202dcad4ca5d4759f58/der-wal-fluesterer-vom-ostseestrand.html` - "Der Wal-Flüsterer vom Ostseestrand"
+27. **WELT**: `https://www.welt.de/print/welt_kompakt/hamburg/article181260224/Tipps-des-Tages-Robert-Marc-Lehmann-Abenteuer-extrem.html` - "Abenteuer extrem" (WELT Kompakt)
+28. **STERN**: `https://www.stern.de/panorama/wal-an-der-ostseekueste--streit-um-einsatz-des-biologen-robert-marc-lehmann-37265476.html` - "Streit um Einsatz des Biologen"
+29. **STERN**: `https://www.stern.de/gesellschaft/forscher--taucher--filmemacher--robert-marc-lehmann-kaempft-rund-um-die-welt-fuer-natur-und-tierreich-9409460.html` - "Kämpft rund um die Welt für Natur und Tierreich"
+30. **STERN**: `https://www.stern.de/panorama/wissen/natur/robert-marc-lehmann---artgerecht-ist-nur-freiheit--30491828.html` - "Artgerecht ist nur Freiheit"
+31. **STERN**: `https://www.stern.de/kultur/tv/meeresbiologe-robert-marc-lehmann-fordert-rettung-der-ozeane-30749712.html` - "Fordert Rettung der Ozeane"
+32. **FOCUS**: `https://www.focus.de/panorama/welt/meeresbiologe-kritisiert-rettungsteam-und-erhebt-vorwuerfe_d73e823f-2257-4387-a85b-52877f511ee8.html` - "Kritisiert Rettungsteam und erhebt Vorwürfe"
+33. **FOCUS**: `https://www.focus.de/panorama/welt/meeresbiologe-lehmann-bitte-handelt-doch-endlich-mal_79dde603-f09f-4f1f-b33e-dc3825b95755.html` - "Bitte handelt doch endlich mal"
+34. **FOCUS**: `https://www.focus.de/panorama/welt/ostsee-walrettung-vom-timmendorfer-strand-im-live-ticker_947ea0d2-ad7c-4251-9c32-d459583bc0c2.html` - "Ostsee-Walrettung im Live-Ticker"
+35. **N-TV**: `https://www.n-tv.de/panorama/Befreiter-Wal-macht-Sperenzchen-in-der-Ostsee-id30519920.html` - "Befreiter Wal macht Sperenzchen"
+36. **N-TV**: `https://www.n-tv.de/mediathek/videos/panorama/Katz-und-Maus-Spiel-mit-Wal-kann-noch-Wochen-gehen-id30520519.html` - "Katz-und-Maus-Spiel mit Wal kann noch Wochen gehen"
+37. **RP-Online**: `https://rp-online.de/panorama/deutschland/timmendorfer-strand-robert-lehmann-der-wal-fluesterer-vom-ostseestrand_aid-145936345` - "Der Wal-Flüsterer vom Ostseestrand"
+38. **RP-Online**: `https://rp-online.de/nrw/staedte/wuppertal/wuppertal-umweltaktivist-und-youtuber-robert-marc-lehmann-ruft-zur-demo-gegen-zoos-auf_aid-128167085` - "Ruft zur Demo gegen Zoos auf"
+39. **RP-Online**: `https://rp-online.de/panorama/streit-um-einsatz-des-biologen-robert-marc-lehmann_aid-146047039` - "Streit um Einsatz des Biologen"
+40. **Tagesschau**: `https://www.tagesschau.de/inland/regional/schleswigholstein/wal-vor-niendorf-meeresbiologe-schaetzt-rettungschancen-als-gering-ein,wal-180.html` - "Prognose sieht nicht gut aus"
 
 ### Literatur & Biografie
 11. **Lovelybooks**: `https://www.lovelybooks.de/autor/Robert-Marc-Lehmann/`
