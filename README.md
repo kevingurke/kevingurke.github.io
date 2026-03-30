@@ -2,6 +2,8 @@
 
 > *Eine evidenzbasierte Dokumentation über einen wahren Kämpfer für den Tierschutz*
 
+> 💙 **Besonderer Dank an [kendaljenner](https://github.com/kendaljenner)** - Teil der KI-Elite und wertvoller Unterstützer dieses Projekts!
+
 ---
 
 ## Über dieses Projekt
